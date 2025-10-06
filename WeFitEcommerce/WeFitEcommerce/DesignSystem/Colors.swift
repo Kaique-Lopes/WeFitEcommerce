@@ -14,7 +14,6 @@ enum AppColors {
     static let primaryDark = UIColor.rgb(0, 90, 190)
     static let textPrimary = UIColor.white
     static let textSecondary = UIColor.rgb(160, 160, 170)
-    static let danger = UIColor.rgb(255, 59, 48)
 }
 
 
