@@ -1,0 +1,22 @@
+//
+//  localizable.strings
+//  WeFitEcommerce
+//
+//  Created by Kaique Lopes on 06/10/25.
+//
+
+// MARK: - Home
+"home_title" = "Mais vendidos";
+"home_button_add_to_cart" = "Adicionar ao carrinho";
+"home_empty_state_message" = "Parece que não há nada por aqui :(";
+"home_reload_button" = "Recarregar página";
+
+// MARK: - Cart
+"cart_title" = "Carrinho de compras";
+"cart_empty_message" = "Parece que não há nada por aqui :(";
+"cart_button_go_home" = "Voltar à Home";
+"cart_button_checkout" = "Finalizar pedido";
+
+// MARK: - Purchase
+"purchase_title" = "Compra realizada com sucesso!";
+"purchase_button_go_home" = "Voltar à Home";
