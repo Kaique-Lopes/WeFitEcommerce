@@ -1,5 +1,5 @@
 //
-//  BodyLabel.swift
+//  SecondaryLabel.swift
 //  WeFitEcommerce
 //
 //  Created by Kaique Lopes on 06/10/25.

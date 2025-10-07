@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1EEB46672E949538005BE43F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1EEB46662E949538005BE43F /* SnapKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		1EEB462B2E946F7B005BE43F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EEB46672E949538005BE43F /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +96,7 @@
 				1EEB46162E946F79005BE43F /* WeFitEcommerce */,
 				1EEB462D2E946F7B005BE43F /* WeFitEcommerceTests */,
 				1EEB46372E946F7B005BE43F /* WeFitEcommerceUITests */,
+				1EEB46652E949538005BE43F /* Frameworks */,
 				1EEB46152E946F79005BE43F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +109,13 @@
 				1EEB46342E946F7B005BE43F /* WeFitEcommerceUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1EEB46652E949538005BE43F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 			);
 			name = WeFitEcommerce;
 			packageProductDependencies = (
+				1EEB46662E949538005BE43F /* SnapKit */,
 			);
 			productName = WeFitEcommerce;
 			productReference = 1EEB46142E946F79005BE43F /* WeFitEcommerce.app */;
@@ -208,6 +222,9 @@
 			);
 			mainGroup = 1EEB460B2E946F79005BE43F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1EEB46642E949495005BE43F /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1EEB46152E946F79005BE43F /* Products */;
 			projectDirPath = "";
@@ -565,6 +582,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1EEB46642E949495005BE43F /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1EEB46662E949538005BE43F /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1EEB46642E949495005BE43F /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1EEB460C2E946F79005BE43F /* Project object */;
 }
