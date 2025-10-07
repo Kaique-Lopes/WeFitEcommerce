@@ -10,7 +10,7 @@ import UIKit
 final class PrimaryButton: UIButton {
     override init(frame: CGRect) {
         super.init(frame: frame)
-        config()
+        configButton()
     }
     
     required init?(coder: NSCoder) { fatalError("init(coder:) not implemented") }
@@ -20,7 +20,7 @@ final class PrimaryButton: UIButton {
         setTitle(title, for: .normal)
     }
 
-    private func config() {
+    private func configButton() {
         layer.cornerRadius = 8
         titleLabel?.font = AppFonts.bold(size: 16)
         backgroundColor = AppColors.primary
